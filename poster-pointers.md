@@ -11,6 +11,10 @@ For discrete random variables $X$ and $Y$, their mutual information is given by 
 
 where $P_{(X,Y)}$ is the joint probability density and $p_X, p_Y$ are the marginal densities.
 
+#### In terms of the Entropy
+Mutual Information has a convenient formula in terms of the entropy of the joint and the marginals via
+$$I(X;Y) = H(X) + H(Y) - H(X,Y).$$
+
 ### Why Mutual Info?
 Expound more on what you looked at last quarter, and the need for mutual information.
 
